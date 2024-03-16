@@ -1,3 +1,43 @@
 body {
-    background-color: aliceblue;
+    background-color: #4a4a4a;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    max-width: 832px;
+    max-height: 1216px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 80%;
+    background-image: url(resources/a-bustling-metropolis-on-a-distant-planet-filled-with-joyful-inhabitants-and-stunning-architecture-359001174.png);
+}
+
+.border {
+    padding: 10px;
+    background-color: gainsboro;
+}
+
+.content {
+    border: 1px solid darkblue;
+    background-color: gainsboro;
+    padding: 10px;
+    text-align: center;
+}
+
+hr {
+    background-color: darkblue;
+    border-color: gainsboro;
+    width: 70%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
 }
